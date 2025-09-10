@@ -1,0 +1,6 @@
+Zeeb,1000
+Pinky,500
+Blinky,400
+Inkey,350
+Clyde,200
+

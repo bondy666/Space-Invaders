@@ -1,0 +1,38 @@
+C:\Users\SimonBond\OneDrive - Stone Sourcing\Projects\SpaceInvaders\VS2022\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.csproj.AssemblyReference.cache
+C:\Users\SimonBond\OneDrive - Stone Sourcing\Projects\SpaceInvaders\VS2022\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck_Invaders.Form1.resources
+C:\Users\SimonBond\OneDrive - Stone Sourcing\Projects\SpaceInvaders\VS2022\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck_Invaders.Properties.Resources.resources
+C:\Users\SimonBond\OneDrive - Stone Sourcing\Projects\SpaceInvaders\VS2022\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.csproj.GenerateResource.cache
+C:\Users\SimonBond\OneDrive - Stone Sourcing\Projects\SpaceInvaders\VS2022\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.csproj.CoreCompileInputs.cache
+C:\Users\SimonBond\OneDrive - Stone Sourcing\Projects\SpaceInvaders\VS2022\Birkbeck-Invaders\Birkbeck-Invaders\bin\Debug\Birkbeck-Invaders.exe.config
+C:\Users\SimonBond\OneDrive - Stone Sourcing\Projects\SpaceInvaders\VS2022\Birkbeck-Invaders\Birkbeck-Invaders\bin\Debug\Birkbeck-Invaders.exe
+C:\Users\SimonBond\OneDrive - Stone Sourcing\Projects\SpaceInvaders\VS2022\Birkbeck-Invaders\Birkbeck-Invaders\bin\Debug\Birkbeck-Invaders.pdb
+C:\Users\SimonBond\OneDrive - Stone Sourcing\Projects\SpaceInvaders\VS2022\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.exe
+C:\Users\SimonBond\OneDrive - Stone Sourcing\Projects\SpaceInvaders\VS2022\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.pdb
+C:\Users\SimonBond\OneDrive - Stone Sourcing\Projects\SpaceInvaders\VS2022\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.exe.config
+D:\Repo1\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.csproj.AssemblyReference.cache
+D:\Repo1\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.exe.config
+D:\Repo1\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck_Invaders.Form1.resources
+D:\Repo1\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck_Invaders.Properties.Resources.resources
+D:\Repo1\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.csproj.GenerateResource.cache
+D:\Repo1\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.csproj.CoreCompileInputs.cache
+D:\Repo1\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.exe
+D:\Repo1\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.pdb
+D:\Repo1\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\bin\Debug\Birkbeck-Invaders.exe.config
+D:\Repo1\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\bin\Debug\Birkbeck-Invaders.exe
+D:\Repo1\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\bin\Debug\Birkbeck-Invaders.pdb
+D:\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\bin\Debug\Birkbeck-Invaders.exe.config
+D:\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\bin\Debug\Birkbeck-Invaders.exe
+D:\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\bin\Debug\Birkbeck-Invaders.pdb
+D:\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.csproj.AssemblyReference.cache
+D:\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.exe.config
+D:\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck_Invaders.Form1.resources
+D:\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck_Invaders.Properties.Resources.resources
+D:\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.csproj.GenerateResource.cache
+D:\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.csproj.CoreCompileInputs.cache
+D:\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.exe
+D:\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.pdb
+D:\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck_Invaders.frmHiScore.resources
+D:\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\bin\Debug\Birkbeck-Invaders.exe.manifest
+D:\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\bin\Debug\Birkbeck-Invaders.application
+D:\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.exe.manifest
+D:\GIT\SpaceInvaders\Birkbeck-Invaders\Birkbeck-Invaders\obj\Debug\Birkbeck-Invaders.application

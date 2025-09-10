@@ -1,0 +1,17 @@
+D:\Projects\Space-Invaders\C#\Birkbeck-Invaders\bin\Release\EalingAttack.exe.config
+D:\Projects\Space-Invaders\C#\Birkbeck-Invaders\bin\Release\EalingAttack.exe.manifest
+D:\Projects\Space-Invaders\C#\Birkbeck-Invaders\bin\Release\EalingAttack.application
+D:\Projects\Space-Invaders\C#\Birkbeck-Invaders\bin\Release\EalingAttack.exe
+D:\Projects\Space-Invaders\C#\Birkbeck-Invaders\bin\Release\EalingAttack.pdb
+D:\Projects\Space-Invaders\C#\Birkbeck-Invaders\bin\Release\EalingAttack.exe.CodeAnalysisLog.xml
+D:\Projects\Space-Invaders\C#\Birkbeck-Invaders\bin\Release\EalingAttack.exe.lastcodeanalysissucceeded
+D:\Projects\Space-Invaders\C#\Birkbeck-Invaders\obj\Release\EalingAttack.csproj.AssemblyReference.cache
+D:\Projects\Space-Invaders\C#\Birkbeck-Invaders\obj\Release\Birkbeck_Invaders.Form1.resources
+D:\Projects\Space-Invaders\C#\Birkbeck-Invaders\obj\Release\Birkbeck_Invaders.frmHiScore.resources
+D:\Projects\Space-Invaders\C#\Birkbeck-Invaders\obj\Release\Ealing_Attack.Properties.Resources.resources
+D:\Projects\Space-Invaders\C#\Birkbeck-Invaders\obj\Release\EalingAttack.csproj.GenerateResource.cache
+D:\Projects\Space-Invaders\C#\Birkbeck-Invaders\obj\Release\EalingAttack.csproj.CoreCompileInputs.cache
+D:\Projects\Space-Invaders\C#\Birkbeck-Invaders\obj\Release\EalingAttack.exe.manifest
+D:\Projects\Space-Invaders\C#\Birkbeck-Invaders\obj\Release\EalingAttack.application
+D:\Projects\Space-Invaders\C#\Birkbeck-Invaders\obj\Release\EalingAttack.exe
+D:\Projects\Space-Invaders\C#\Birkbeck-Invaders\obj\Release\EalingAttack.pdb

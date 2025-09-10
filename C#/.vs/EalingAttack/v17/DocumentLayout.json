@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Space-Invaders\\C#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|EalingAttack||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346E2B2-39CA-42CB-BF72-B2594213507C}|Birkbeck-Invaders\\EalingAttack.csproj|D:\\Projects\\Space-Invaders\\C#\\birkbeck-invaders\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6346E2B2-39CA-42CB-BF72-B2594213507C}|Birkbeck-Invaders\\EalingAttack.csproj|solutionrelative:birkbeck-invaders\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346E2B2-39CA-42CB-BF72-B2594213507C}|Birkbeck-Invaders\\EalingAttack.csproj|d:\\projects\\space-invaders\\c#\\birkbeck-invaders\\frmhiscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6346E2B2-39CA-42CB-BF72-B2594213507C}|Birkbeck-Invaders\\EalingAttack.csproj|solutionrelative:birkbeck-invaders\\frmhiscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346E2B2-39CA-42CB-BF72-B2594213507C}|Birkbeck-Invaders\\EalingAttack.csproj|D:\\Projects\\Space-Invaders\\C#\\birkbeck-invaders\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6346E2B2-39CA-42CB-BF72-B2594213507C}|Birkbeck-Invaders\\EalingAttack.csproj|solutionrelative:birkbeck-invaders\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346E2B2-39CA-42CB-BF72-B2594213507C}|Birkbeck-Invaders\\EalingAttack!.csproj|D:\\Projects\\Space-Invaders\\C#\\birkbeck-invaders\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6346E2B2-39CA-42CB-BF72-B2594213507C}|Birkbeck-Invaders\\EalingAttack!.csproj|solutionrelative:birkbeck-invaders\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346E2B2-39CA-42CB-BF72-B2594213507C}|Birkbeck-Invaders\\EalingAttack.csproj|d:\\projects\\space-invaders\\c#\\birkbeck-invaders\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EalingAttack",
+              "DocumentMoniker": "D:\\Projects\\Space-Invaders\\C#\\Birkbeck-Invaders\\EalingAttack.csproj",
+              "RelativeDocumentMoniker": "Birkbeck-Invaders\\EalingAttack.csproj",
+              "ToolTip": "D:\\Projects\\Space-Invaders\\C#\\Birkbeck-Invaders\\EalingAttack.csproj",
+              "RelativeToolTip": "Birkbeck-Invaders\\EalingAttack.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-10T20:43:08.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmHiScore.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\Space-Invaders\\C#\\Birkbeck-Invaders\\frmHiScore.cs",
+              "RelativeDocumentMoniker": "Birkbeck-Invaders\\frmHiScore.cs",
+              "ToolTip": "D:\\Projects\\Space-Invaders\\C#\\Birkbeck-Invaders\\frmHiScore.cs [Design]",
+              "RelativeToolTip": "Birkbeck-Invaders\\frmHiScore.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T20:29:37.008Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\Space-Invaders\\C#\\Birkbeck-Invaders\\Form1.cs",
+              "RelativeDocumentMoniker": "Birkbeck-Invaders\\Form1.cs",
+              "ToolTip": "D:\\Projects\\Space-Invaders\\C#\\Birkbeck-Invaders\\Form1.cs [Design]",
+              "RelativeToolTip": "Birkbeck-Invaders\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T19:41:20.536Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Projects\\Space-Invaders\\C#\\Birkbeck-Invaders\\Form1.cs",
+              "RelativeDocumentMoniker": "Birkbeck-Invaders\\Form1.cs",
+              "ToolTip": "D:\\Projects\\Space-Invaders\\C#\\Birkbeck-Invaders\\Form1.cs",
+              "RelativeToolTip": "Birkbeck-Invaders\\Form1.cs",
+              "ViewState": "AgIAAA8DAAAAAAAAAAAqwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T19:08:41.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\Space-Invaders\\C#\\Birkbeck-Invaders\\Form1.cs",
+              "RelativeDocumentMoniker": "Birkbeck-Invaders\\Form1.cs",
+              "ToolTip": "D:\\GIT\\SpaceInvaders\\C#_EalingAttack\\Birkbeck-Invaders\\Form1.cs [Design]*",
+              "RelativeToolTip": "..\\..\\..\\GIT\\SpaceInvaders\\C#_EalingAttack\\Birkbeck-Invaders\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T18:44:01.141Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
