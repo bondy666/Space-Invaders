@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Space-Invaders\\C#\\SingleThread (1st version)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6346E2B2-39CA-42CB-BF72-B2594213507C}|Birkbeck-Invaders\\Birkbeck-Invaders.csproj|d:\\projects\\space-invaders\\c#\\singlethread (1st version)\\birkbeck-invaders\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6346E2B2-39CA-42CB-BF72-B2594213507C}|Birkbeck-Invaders\\Birkbeck-Invaders.csproj|solutionrelative:birkbeck-invaders\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346E2B2-39CA-42CB-BF72-B2594213507C}|Birkbeck-Invaders\\Birkbeck-Invaders.csproj|D:\\Projects\\Space-Invaders\\C#\\SingleThread (1st version)\\birkbeck-invaders\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6346E2B2-39CA-42CB-BF72-B2594213507C}|Birkbeck-Invaders\\Birkbeck-Invaders.csproj|solutionrelative:birkbeck-invaders\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6346E2B2-39CA-42CB-BF72-B2594213507C}|Birkbeck-Invaders\\Birkbeck-Invaders.csproj|D:\\Projects\\Space-Invaders\\C#\\SingleThread (1st version)\\birkbeck-invaders\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6346E2B2-39CA-42CB-BF72-B2594213507C}|Birkbeck-Invaders\\Birkbeck-Invaders.csproj|solutionrelative:birkbeck-invaders\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\Projects\\Space-Invaders\\C#\\SingleThread (1st version)\\Birkbeck-Invaders\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Birkbeck-Invaders\\Form1.Designer.cs",
+              "ToolTip": "D:\\Projects\\Space-Invaders\\C#\\SingleThread (1st version)\\Birkbeck-Invaders\\Form1.Designer.cs",
+              "RelativeToolTip": "Birkbeck-Invaders\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T11:37:18.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Projects\\Space-Invaders\\C#\\SingleThread (1st version)\\Birkbeck-Invaders\\Form1.cs",
+              "RelativeDocumentMoniker": "Birkbeck-Invaders\\Form1.cs",
+              "ToolTip": "D:\\Projects\\Space-Invaders\\C#\\SingleThread (1st version)\\Birkbeck-Invaders\\Form1.cs",
+              "RelativeToolTip": "Birkbeck-Invaders\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUBAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T11:22:01.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\Space-Invaders\\C#\\SingleThread (1st version)\\Birkbeck-Invaders\\Form1.cs",
+              "RelativeDocumentMoniker": "Birkbeck-Invaders\\Form1.cs",
+              "ToolTip": "D:\\Projects\\SingleThread\\GIT\\SpaceInvaders\\Birkbeck-Invaders\\Birkbeck-Invaders\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\SingleThread\\GIT\\SpaceInvaders\\Birkbeck-Invaders\\Birkbeck-Invaders\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T11:00:29.532Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

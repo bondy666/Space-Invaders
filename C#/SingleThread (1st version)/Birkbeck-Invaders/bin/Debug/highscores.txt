@@ -1,0 +1,10 @@
+    Simon,360
+Player,290
+Leia ,280
+ Leia,250
+Leia,200
+fsdfsd,40
+Simon,0
+Player,0
+Player,0
+simon,0
