@@ -80,6 +80,26 @@
             font-size: 14px;
             opacity: 0.7;
         }
+
+        .sound-toggle {
+            margin-top: 10px;
+            background: #0f0;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            font-size: 14px;
+            cursor: pointer;
+            font-family: 'Courier New', monospace;
+        }
+
+        .sound-toggle:hover {
+            background: #0c0;
+        }
+
+        .sound-toggle.muted {
+            background: #555;
+            color: #888;
+        }
     </style>
 </head>
 <body>
@@ -93,6 +113,7 @@
         <div class="controls">
             Arrow Keys to Move | Space to Shoot | P to Pause
         </div>
+        <button class="sound-toggle" id="soundToggle" onclick="toggleSound()">🔊 Sound: ON</button>
         <div class="game-over" id="gameOver">
             <h2>GAME OVER</h2>
             <p>Final Score: <span id="finalScore">0</span></p>
@@ -103,6 +124,126 @@
     <script>
         const canvas = document.getElementById('gameCanvas');
         const ctx = canvas.getContext('2d');
+
+        // Audio Context for sound generation
+        const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        let soundEnabled = true;
+
+        // Sound effects using Web Audio API
+        function playShoot() {
+            if (!soundEnabled) return;
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.frequency.value = 200;
+            oscillator.type = 'square';
+            
+            gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.1);
+            
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + 0.1);
+        }
+
+        function playEnemyShoot() {
+            if (!soundEnabled) return;
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.frequency.value = 100;
+            oscillator.type = 'sawtooth';
+            
+            gainNode.gain.setValueAtTime(0.2, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.15);
+            
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + 0.15);
+        }
+
+        function playExplosion() {
+            if (!soundEnabled) return;
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.frequency.setValueAtTime(200, audioContext.currentTime);
+            oscillator.frequency.exponentialRampToValueAtTime(50, audioContext.currentTime + 0.2);
+            oscillator.type = 'sawtooth';
+            
+            gainNode.gain.setValueAtTime(0.4, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.2);
+            
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + 0.2);
+        }
+
+        function playHit() {
+            if (!soundEnabled) return;
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.frequency.value = 150;
+            oscillator.type = 'triangle';
+            
+            gainNode.gain.setValueAtTime(0.5, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.1);
+            
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + 0.1);
+        }
+
+        function playGameOver() {
+            if (!soundEnabled) return;
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            
+            oscillator.frequency.setValueAtTime(400, audioContext.currentTime);
+            oscillator.frequency.exponentialRampToValueAtTime(50, audioContext.currentTime + 0.5);
+            oscillator.type = 'sine';
+            
+            gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.5);
+            
+            oscillator.start(audioContext.currentTime);
+            oscillator.stop(audioContext.currentTime + 0.5);
+        }
+
+        function playLevelUp() {
+            if (!soundEnabled) return;
+            const notes = [262, 330, 392, 523]; // C, E, G, C (higher octave)
+            
+            notes.forEach((freq, index) => {
+                const oscillator = audioContext.createOscillator();
+                const gainNode = audioContext.createGain();
+                
+                oscillator.connect(gainNode);
+                gainNode.connect(audioContext.destination);
+                
+                oscillator.frequency.value = freq;
+                oscillator.type = 'sine';
+                
+                const startTime = audioContext.currentTime + (index * 0.1);
+                gainNode.gain.setValueAtTime(0.2, startTime);
+                gainNode.gain.exponentialRampToValueAtTime(0.01, startTime + 0.15);
+                
+                oscillator.start(startTime);
+                oscillator.stop(startTime + 0.15);
+            });
+        }
 
         // Game state
         let gameState = {
@@ -210,6 +351,7 @@
                     y: player.y
                 });
                 lastBulletTime = Date.now();
+                playShoot();
             }
 
             // Update bullets
@@ -250,6 +392,7 @@
                         x: shooter.x + shooter.width / 2,
                         y: shooter.y + shooter.height
                     });
+                    playEnemyShoot();
                 }
             }
 
@@ -265,6 +408,7 @@
                         bullets.splice(bIndex, 1);
                         gameState.score += enemy.type * 10;
                         updateStats();
+                        playExplosion();
                     }
                 });
             });
@@ -278,6 +422,7 @@
                     enemyBullets.splice(index, 1);
                     gameState.lives--;
                     updateStats();
+                    playHit();
                     if (gameState.lives <= 0) {
                         endGame();
                     }
@@ -329,6 +474,7 @@
             bullets = [];
             enemyBullets = [];
             updateStats();
+            playLevelUp();
         }
 
         // End game
@@ -336,6 +482,7 @@
             gameState.gameOver = true;
             document.getElementById('finalScore').textContent = gameState.score;
             document.getElementById('gameOver').classList.add('show');
+            playGameOver();
         }
 
         // Restart game
@@ -364,11 +511,27 @@
             if (e.key === ' ') {
                 e.preventDefault();
             }
+            if (e.key === 'm' || e.key === 'M') {
+                toggleSound();
+            }
         });
 
         document.addEventListener('keyup', (e) => {
             keys[e.key] = false;
         });
+
+        // Toggle sound
+        function toggleSound() {
+            soundEnabled = !soundEnabled;
+            const btn = document.getElementById('soundToggle');
+            if (soundEnabled) {
+                btn.textContent = '🔊 Sound: ON';
+                btn.classList.remove('muted');
+            } else {
+                btn.textContent = '🔇 Sound: OFF';
+                btn.classList.add('muted');
+            }
+        }
 
         // Initialize and start
         createEnemies();
