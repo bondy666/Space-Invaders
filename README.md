@@ -6,7 +6,7 @@ Have fun!
 11/01/2026
 HTML version added. This was AI constructed right from the start and was simply a containerization project in Azure.
 No guarantees how long it'll be available but it can currently be viewer here : 
-spaceinvaders.ahhmehcbc3e3cybu.ukwest.azurecontainer.io
+http://spaceinvaders.ahhmehcbc3e3cybu.ukwest.azurecontainer.io
 
 
 Simon Bond (Bondytech.uk)
